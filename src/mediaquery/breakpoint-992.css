@@ -1,0 +1,146 @@
+@media (max-width: 992px) {
+  section {
+    padding: 48px;
+  }
+
+  h2 {
+    margin-bottom: 4rem;
+  }
+
+  .hero-section__hero-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .upcoming-info-box {
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .upcoming-info {
+    flex-direction: row;
+    width: 80%;
+    margin-bottom: 4rem;
+  }
+
+  .upcoming-info__right-box {
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .upcoming-info__left-box img {
+    padding: 0;
+    margin-bottom: 0;
+    margin-right: 3em;
+  }
+  .upcoming-info__title {
+    font-size: 2.2rem;
+  }
+
+  .upcoming-info__date {
+    margin-bottom: 1rem;
+  }
+
+  .upcoming-info__description {
+    text-align: start;
+  }
+
+  .upcoming-info__btn-box {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  /* ------------------------------------------ */
+
+  .service-items-box {
+    flex-wrap: wrap;
+  }
+
+  .service-item {
+    width: 45%;
+    margin-bottom: 60px;
+  }
+
+  .service-item__description {
+    width: 80%;
+  }
+
+  /* .service-item {
+    width: 100%;
+  } */
+  /* ---------------------------------------------- */
+  .training__info-title {
+    margin-top: 80px;
+    margin-left: 90px;
+  }
+
+  #kubernetes .training__info-title {
+    margin-top: 100px;
+    left: 60px;
+  }
+
+  .training__img {
+    width: 240px;
+    margin-right: 20px;
+  }
+
+  .training__left-side {
+    width: 60%;
+  }
+
+  .training__description {
+    line-height: 1.4;
+    font-size: 1.7rem;
+  }
+
+  /* ----------------- */
+
+  .training__edition {
+    margin-top: 80px;
+    height: 90px;
+  }
+
+  .training__edition span {
+    font-size: 1.6rem;
+  }
+
+  .training__edition h6 {
+    margin-top: 8px;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
+  #kubernetes .training__edition {
+    margin-top: 80px;
+  }
+
+  /* ------------------------------ */
+
+  .learning-path__item-title {
+    font-size: 2.2rem;
+  }
+
+  .learning-path__item-description {
+    margin-top: 1.2rem;
+    line-height: 1.3;
+  }
+  /* ------------------------------------------------------------------------------ */
+
+  .footer__box div {
+    width: 25%;
+  }
+
+  .footer__contact-item img {
+    height: 50px;
+  }
+
+  .footer__contact,
+  .footer__trainings,
+  .footer__newsletter {
+    width: 25%;
+  }
+}

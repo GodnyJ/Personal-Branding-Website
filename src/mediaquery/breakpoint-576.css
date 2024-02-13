@@ -1,0 +1,171 @@
+@media (max-width: 576px) {
+  section {
+    padding: 20px;
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+    margin: 2.4rem 0;
+  }
+
+  .nav-bar {
+    height: 7.2rem;
+  }
+
+  .hero-section__hero-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  /* --------------------------------------------------------------------- */
+  .upcoming-info {
+    width: 100%;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  .upcoming-info__right-box {
+    margin-left: 0;
+  }
+
+  .upcoming-info__title {
+    font-size: 1.8rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .upcoming-info__description {
+    line-height: 18px;
+    font-size: 1.6rem;
+    width: 100%;
+  }
+  /* ----------------------------------------------------------------------------- */
+  .about-me__img {
+    height: 240px;
+    width: 240px;
+  }
+
+  .about-me__name {
+    font-size: 2.8rem;
+  }
+
+  .about-me__info {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  /* --------------------------------------------------------------------------------- */
+  .service-item {
+    display: none;
+  }
+
+  .service-items-box {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .service-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+
+    width: 45%;
+    box-shadow: 8px 8px 16px rgba(121, 121, 121, 0.7);
+    border-radius: 25px;
+  }
+
+  .service-mobile a {
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .service-mobile__icon {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+  }
+
+  .service-mobile__title {
+    font-size: 1.7rem;
+    color: black;
+    margin-top: 1.2rem;
+  }
+  /* ------------------------------------------------------------------------------------- */
+  .training__logo {
+    width: 80px;
+  }
+
+  .training__info-title {
+    margin-top: 50px;
+    margin-left: 60px;
+  }
+
+  .training__info {
+    font-size: 1.4rem;
+  }
+
+  .training__title {
+    font-size: 3.6rem;
+  }
+
+  #kubernetes .training__info-title {
+    margin-top: 60px;
+    left: -70px;
+  }
+
+  #kubernetes .training__description {
+    margin-top: 60px;
+  }
+
+  .training__description {
+    margin-top: 48px;
+  }
+
+  .training__price {
+    margin-top: 2rem;
+    font-size: 3.6rem;
+  }
+
+  /* ------------------------ */
+  .training__edition {
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .training__edition--right-side {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .training__edition--right-side div {
+    width: 33%;
+  }
+  /* --------------------------------------------------------------------------------------- */
+
+  .learning-path__right-side h6 {
+    display: flex;
+    margin-bottom: 2rem;
+    margin-top: -80px;
+    font-size: 2.4rem;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+  }
+  .learning-path-title {
+    margin: 2em 0;
+  }
+
+  .learning-path__item-title,
+  .learning-path__item-info,
+  .learning-path__item-description {
+    padding-left: 3rem;
+  }
+}

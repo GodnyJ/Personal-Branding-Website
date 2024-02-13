@@ -1,0 +1,92 @@
+@media (max-width: 376px) {
+  section {
+    padding: 16px;
+  }
+
+  .about-me__img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .about-me__name {
+    margin-top: 0;
+  }
+
+  .about-me__info {
+    font-size: 1.7rem;
+  }
+  .about-me__description {
+    width: 100%;
+    font-size: 1.6rem;
+  }
+  /* -------------------------------------------------------- */
+
+  .service-mobile__icon {
+    height: 70px;
+    width: 70px;
+  }
+
+  .service-mobile__title {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+  }
+
+  /* --------------------------------------------------------------- */
+
+  .training__logo {
+    width: 60px;
+  }
+
+  .training__info-title {
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+  #kubernetes .training__info-title {
+    margin-top: 44px;
+    margin-left: 125px;
+  }
+  .training__title {
+    margin-top: 8px;
+    margin-left: -45px;
+    font-size: 3.2rem;
+  }
+  #kubernetes .training__title {
+    margin-top: 2px;
+  }
+
+  .training__description {
+    margin-top: 64px;
+  }
+  /* --------------------- */
+  .training__edition {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* ------------------------------------------------------------- */
+  .learning-path__item-title,
+  .learning-path__item-info,
+  .learning-path__item-description {
+    padding-left: 2rem;
+  }
+  /* -------------------------------------------------------------- */
+  .image-gallery img {
+    margin: 15px 20px;
+    height: 20px;
+  }
+  .image-gallery img.asseco {
+    height: 8px;
+  }
+
+  .image-gallery img.cs {
+    height: 40px;
+    margin-left: 10px;
+  }
+
+  .image-gallery img.dimater {
+    height: 35px;
+  }
+  /* ---------------------------------------------------------------- */
+  .footer-mobile div h6 {
+    margin-top: 0.4rem;
+  }
+}
